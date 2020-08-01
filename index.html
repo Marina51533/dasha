@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='less/style.css'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!---- for animations and scrolling effect -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src='libs/wow.min.js'></script>
+    <script>
+        new WOW().init();
+    </script>
+    <title>Site with less</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><a href='#'>About</a></div>
+            <div><a href='#'>Works</a></div>
+            <div><a href='#'>Contacts</a></div>
+            <div><a href='#'>Plan</a></div>
+        </nav>
+        <div class='header_bottom' id='hed_bottom`'>
+            <h1 class='animate__animated animate__fadeInDown  animate__slower 2s'>This site was created for <br> my daughter</h1>
+            <div class='foto_header' id='foto_header'><img src='img/dasha.jpg' class='dasha animate__animated animate__rotateIn  animate__slower 2s' id='dasha'></div>
+        </div>
+    </header>
+    <main>
+        <section class='one'>
+            <div class='about wow animate__animated animate__fadeInUp'>
+                <img src='img/theater.jpg' class='about_foto'>
+                <img src='img/about.jpg' class='about_foto'>
+
+                <img src='img/bike.jpg' class='about_foto'>
+            </div>
+            <div class='about_text wow animate__animated animate__slideInUp animate__slower 2s'>
+                <h2 class='h2'>Hi, everyone!</h2>
+                <p class='ppp'>My name's Dasha, I'm 9 years old.<br> I go to Barrandov's school, drow in an art school and play harp.<br> I have a younger brother and every day we play together different games.<br> And my laptop, of course))</p>
+            </div>
+        </section>
+        <section class='two'>
+            <div class='about wow animate__animated animate__bounceInLeft animate__slower 2s'>
+                <img src='img/harp.jpg' class='two_foto'></div>
+            <div class='two_text wow animate__animated animate__fadeInRight
+            animate__slower 4s'>
+                <h2 class='h2'>This is my harp</h2>
+                <p class='ppp'>I like to play harp but honestly i prefer Maincraft:)))<br> My mother says its very important to be interested many things:<br> music, art, literature etc. But I'm sure she's a little bit old-fashioned<br> and pays attention not to the
+                    right things.<br> What do you think, computer is not important?!</p>
+            </div>
+        </section>
+        <section class='three'>
+            <h2>I like painting very much!!!</h2>
+            <div class="carousel" data-flickity>
+                <div class="carousel-cell"><img src='img/dasha.jpg'></div>
+                <div class="carousel-cell size-180"><img src='img/dasha2.jpg'></div>
+                <div class="carousel-cell size-large"><img src='img/bike.jpg'></div>
+                <div class="carousel-cell"><img src='img/harp.jpg'></div>
+                <div class="carousel-cell size-large"><img src='img/theater.jpg'></div>
+            </div>
+
+        </section>
+        <footer>
+            <h3>Write me!</h3>
+            <p><span>Mobile phone: </span>+420 723 568 436</p>
+            <p><span>Address: </span> Trnkona nam.,1112/1,Praha 5, 15200</p>
+            <p><span>Email: </span> marina51533@gmail.com</p>
+            <p>'I believe I can fly....!'</p>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='js/le.js'></script>
+    <script src='libs/wow.min.js'></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
