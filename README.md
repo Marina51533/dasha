@@ -3,4 +3,4 @@
 
 [Click this link to see it!](https://marina51533.github.io/dasha/)
 
-The site was developed with HTML, CSS and JavaScript (JQuery).
+The site was developed with HTML, CSS and JavaScript (JQuery).For desktop, without adaptation.
